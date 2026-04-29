@@ -7,7 +7,7 @@ const App = () => {
       {/* Floating Header */}
       <nav style={{ position: 'fixed', top: '24px', left: '50%', transform: 'translateX(-50%)', zIndex: 1000, width: 'auto' }}>
         <div className="bento-card" style={{ padding: '12px 32px', borderRadius: '999px', flexDirection: 'row', gap: '32px', alignItems: 'center', background: 'rgba(12, 19, 36, 0.5)' }}>
-          <div style={{ fontWeight: '800', fontSize: '20px' }} className="gradient-text">PB.</div>
+          <div style={{ fontWeight: '800', fontSize: '20px' }} className="gradient-text">PSB.</div>
           <div style={{ display: 'flex', gap: '24px', fontSize: '14px', fontWeight: '600' }}>
             <a href="#about" style={{ color: 'inherit', textDecoration: 'none' }}>About</a>
             <a href="#projects" style={{ color: 'inherit', textDecoration: 'none' }}>Projects</a>
@@ -23,6 +23,7 @@ const App = () => {
         <div className="bento-card" style={{ gridColumn: 'span 8', minHeight: '400px', justifyContent: 'center' }} id="about">
           <span className="label-tech">Data Visualization & Analytics</span>
           <h1 style={{ fontSize: '72px', lineHeight: '1.1', marginBottom: '24px' }}>
+            Hi, I'm <span className="gradient-text">Parthraj Singh Bhati.</span><br />
             Architecting <span className="gradient-text">Data Clarity.</span>
           </h1>
           <p style={{ fontSize: '18px', color: 'var(--on-surface-variant)', maxWidth: '500px', marginBottom: '32px' }}>
